@@ -7,11 +7,28 @@ mongoose.connect('mongodb://localhost:27017/playground', { useNewUrlParser: true
   .catch( err => console.error('Error', err));
 
 const courseSchema = new mongoose.Schema({
-  name: String,
+  name: { 
+    type: String, 
+    required: true,
+    minlength: 5,
+    maxlength: 255,
+    // mmatch: /regex-patter/
+  },
+  category: {
+    type: String,
+    required: true,
+    enum: ['web', 'server', 'network']
+  },
   author: String,
   tags: [ String ],
   date: { type: Date, default: Date.now },
-  isPublished: Boolean
+  isPublished: Boolean,
+  price: {
+    type: Number,
+    required: function() { return this.isPublished; },
+    min: 10,
+    max: 200
+  }
 });
 
 const Course = mongoose.model('Course', courseSchema);
@@ -19,13 +36,20 @@ const Course = mongoose.model('Course', courseSchema);
 async function createCourse() {
   const course = new Course({
     name: 'Angular Course',
+    category: '-',
     author: 'Arthur',
     tags: ['angular', 'frontend' ],
-    isPublished: true
+    isPublished: true,
+    price: 15
   });
   
-  const result = await course.save();
-  console.log(result);
+  try {
+    const result = await course.save();
+    console.log(result);
+  }
+  catch (ex) {
+    console.log(ex.message)
+  }
 }
 
 /********************************\
@@ -69,4 +93,5 @@ async function getCourses() {
 
 
 // createCourse();
-getCourses();
+createCourse();
+// getCourses();
