@@ -7,16 +7,14 @@
 	"settings": {
 		"files.autoSave": "afterDelay",
 		"files.autoSaveDelay": 1000,
-		"editor.tabSize": 2,
+		"editor.tabSize":2,
+		"editor.wordWrap": "on",
 		"editor.fontSize": 10,
-		"editor.wordWrap":"on",
 		"editor.tokenColorCustomizations": {
-			"textMateRules": [{
-				"scope": "comment.block",
-				"settings": {
-					"foreground": "#ff0000"
-				}
-			}]
+			"comments":{
+				"foreground": "#38612a",
+				"fontStyle": "bold"
+			}
 		}
 	}
 }
