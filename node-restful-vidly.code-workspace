@@ -12,12 +12,12 @@
 		"editor.fontSize": 10,
 		"editor.tokenColorCustomizations": {
 			"comments":{
-				"foreground": "#38612a",
+				"foreground": "#969696",
 				"fontStyle": "bold"
 			},
 			"sementicHighlighting": true,
 			"functions": "#ffd249",
-			"variables": "#b683f4",
+			"variables": "#8ad5f5",
 		}
 	}
 }
