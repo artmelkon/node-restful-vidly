@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const Genre = require('../models/genres');
+const Genre = require('../models/genre');
 const { validateGenre } = require('../services/validate');
 
 
