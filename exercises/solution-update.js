@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Course = require('./models/course');
+const Course = require('../models/course');
 
 // connect to database
 mongoose.connect('mongodb://localhost/playground', { useNewUrlParser: true, useUnifiedTopology: true });

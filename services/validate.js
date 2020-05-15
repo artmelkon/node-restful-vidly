@@ -1,8 +1,10 @@
+const Joi = require('joi');
+
 function validateCustomer(customer) {
   const schema = { 
     name: Joi.string().min(5).max(50).required(),
     phone: Joi.string().min(5).max(50).required(),
-    isGod: Joi.boolian()
+    isGold: Joi.boolean()
   };
   return Joi.validate(customer, schema);
 };
@@ -15,14 +17,22 @@ function validateGenre(genre) {
 function validateMovie(movie) {
   const schema = {
     title: Joi.string().min(5).max(50),
-    genreID: Joi.string().required(),
+    genreId: Joi.string().required(),
     numberInStock: Joi.number().min(0).required(),
     dailyRentalRate: Joi.number().min(0).required()
   };
   return Joi.validate(movie, schema);
 };
 
+function validateRental(rental) {
+  const schema = {
+    customerId: Joi.string().required(),
+    movieId: Joi.string().required()
+  }
+  return Joi.validate(rental, schema)
+}
 
 exports.validateCustomer = validateCustomer;
-exports.validateCustomer = validateGenre;
+exports.validateGenre = validateGenre;
 exports.validateMovie = validateMovie;
+exports.validateRental = validateRental;

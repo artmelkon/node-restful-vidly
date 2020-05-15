@@ -13,6 +13,7 @@ exports.postGenre = async (req, res) => {
   let genre = new Genre({
     name: req.body.name
   })
+  console.log(genre.name)
   gnere = await genre.save();
   res.send(genre);
 };

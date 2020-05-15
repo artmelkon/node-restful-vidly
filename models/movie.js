@@ -5,7 +5,7 @@ const { genreSchema } = require('./genre');
 const Movie = mongoose.model('Movie', new mongoose.Schema({
   title: { 
     type: String,
-    require: true,
+    required: true,
     trim: true,
     minlength: 5,
     maxlenght: 255
