@@ -1,11 +1,11 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-const validateGenre = require('../services/validate');
+// const validateGenre = require('../services/validate');
 
 const genreSchema = new mongoose.Schema({
   name: {
     type: String,
-    require: true,
+    required: true,
     lowercase: true,
     minlength: 5,
     maxlength: 50
@@ -14,5 +14,14 @@ const genreSchema = new mongoose.Schema({
 
 const Genre = mongoose.model('Genre', genreSchema);
 
-module.exports = genreSchema;
-module.exports = Genre;
+function validateGenre(genre) {
+  const schema = {
+    name: Joi.string().min(3).required()
+  };
+
+  return Joi.validate(genre, schema);
+}
+
+exports.genreSchema = genreSchema;
+exports.Genre = Genre;
+exports.validate = validateGenre;

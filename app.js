@@ -6,13 +6,16 @@ const app = express();
 // include files
 const genreRoutes = require('./routes/genre');
 const customerRoutes = require('./routes/customer.');
-
-Fawn.init(mongoose);
+const movieRoutes = require('./routes/movie');
+const rentalRoutes = require('./routes/rental');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use('/api/genres', genreRoutes);
 app.use('/api/customers', customerRoutes);
+app.use('/api/movies', movieRoutes);
+app.use('/api/rentals', rentalRoutes)
 
 
 var PORT = process.env.PORT || 3000;

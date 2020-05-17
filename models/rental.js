@@ -1,9 +1,9 @@
-const mongoose = require('mongoose');
 const Joi = require('joi');
+const mongoose = require('mongoose');
 
-const validateRental = require('../services/validate');
+// const validateRental = require('../services/validate');
 
-module.exports = mongoose.model('Rental', new mongoose.Schema({
+const Rental = mongoose.model('Rental', new mongoose.Schema({
   customer: {
     type: new mongoose.Schema({
       name: {
@@ -55,4 +55,16 @@ module.exports = mongoose.model('Rental', new mongoose.Schema({
     type: Number,
     min: 0
   }
-}))
+}));
+
+function validateRental(rental) {
+  const schema = {
+    customerId: Joi.string().required(),
+    movieId: Joi.string().required()
+  };
+
+  return Joi.validate(rental, schema);
+}
+
+exports.Rental = Rental;
+exports.validate = validateRental;
