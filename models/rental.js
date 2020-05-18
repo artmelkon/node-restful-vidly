@@ -1,8 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
 
-// const validateRental = require('../services/validate');
-
 const Rental = mongoose.model('Rental', new mongoose.Schema({
   customer: {
     type: new mongoose.Schema({
