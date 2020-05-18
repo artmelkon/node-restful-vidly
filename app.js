@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api/genres', genreRoutes);
 app.use('/api/customers', customerRoutes);
 app.use('/api/movies', movieRoutes);
-app.use('/api/rentals', rentalRoutes)
-
+app.use('/api/rentals', rentalRoutes);
+app.use('/api/users', userRoutes);
 
 var PORT = process.env.PORT || 3000;
 mongoose.connect('mongodb://localhost/vidly', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
