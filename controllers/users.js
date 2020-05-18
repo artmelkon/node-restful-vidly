@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 const { User, validate } = require('../models/user');
 
 exports.getUsers = async (req, res) => {
@@ -13,12 +15,9 @@ exports.postUser = async (req, res) => {
   let user = await User.findOne({ email: req.body.email });
   if(user) return res.status(400).send('User already registered.')
 
-  user = new User({
-    name: req.body.name,
-    email: req.body.email,
-    password: req.body.password
-  });
+  user = new User(req.body, _.pick['name', 'email', 'password']); // lodash version of an object
 
   await user.save();
-  res.send(user)
+
+  res.send( _.pick(user, ['_id', 'name', 'email']) );
 }
