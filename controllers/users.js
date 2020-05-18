@@ -5,5 +5,3 @@ exports.getUsers = async (req, res) {
 
   res.send(user);
 }
-
-
