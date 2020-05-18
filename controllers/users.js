@@ -1,7 +1,23 @@
-const User = require('../models/user');
+const _ = require('lodash');
 
-exports.getUsers = async (req, res) {
-  const users = await Uaer.find().sort('name');
+const { User, validate } = require('../models/user');
 
-  res.send(user);
+exports.getUsers = async (req, res) => {
+  const users = await User.find().sort('name');
+
+  res.send(users);
+}
+
+exports.postUser = async (req, res) => {
+  const { error } = validate(req.body);
+  if(error) return res.status(400).send(error.details[0].message);
+
+  let user = await User.findOne({ email: req.body.email });
+  if(user) return res.status(400).send('User already registered.')
+
+  user = new User( _.pick[req.body, 'name', 'email', 'password']); // lodash version of an object
+
+  await user.save();
+
+  res.send( _.pick(user, ['_id', 'name', 'email']) );
 }
