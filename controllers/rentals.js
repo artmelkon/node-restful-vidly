@@ -15,7 +15,7 @@ exports.getRentals = async (req,res) => {
 exports.postRental = async (req, res) => {
   const { error } = validate(req.body);
   if(error) return res.status(400).send(error.details[0].message);
-
+    
   const customer = await Customer.findById(req.body.customerId);
   if(!customer) return res.status(400).send('Invalid customer.');
 
@@ -52,3 +52,10 @@ exports.postRental = async (req, res) => {
     res.status(500).send('Something failed.')
   }
 };
+
+exports.getRental = async (req, res) => {
+  const rental = await Rental.findById(req.params.id);
+  if(!rental) return res.status(400).send('The rental with the given ID was not found.');
+
+  res.send(rental)
+}

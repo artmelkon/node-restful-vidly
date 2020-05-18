@@ -1,3 +1,5 @@
+const Joi = require('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const Fawn = require('fawn');
