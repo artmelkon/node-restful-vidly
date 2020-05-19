@@ -4,7 +4,6 @@ const { User, validate } = require('../models/user');
 
 exports.getUsers = async (req, res) => {
   const users = await User.find().sort('name');
-
   res.send(users);
 }
 
