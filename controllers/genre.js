@@ -37,5 +37,3 @@ exports.getGenre = async (req, res) => {
   
   res.send(genre)
 };
-
-
