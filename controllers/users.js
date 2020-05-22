@@ -20,5 +20,16 @@ exports.postUser = async (req, res) => {
   user.password = await bcrypt.hash(user.password, salt);
   await user.save();
 
+<<<<<<< HEAD
   res.send( _.pick(user, ['_id', 'name', 'email']) );
 }
+=======
+  const token = user.generateAuthToken();
+  res.header('x-auth-token', token).send( _.pick(user, ['_id', 'name', 'email']) );
+}
+
+exports.getUser = async (req, res) => {
+  const user = await User.findById(req.user._id).select('-password');
+  res.send(user);
+}
+>>>>>>> 588b48f84595d3387146ba0597bf5f6f1a482505

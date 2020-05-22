@@ -49,3 +49,9 @@ exports.putMovie = async (req, res) => {
   res.send(movie)
 }
 
+exports.deleteMovie = async (req, res) => {
+  const movie = await Movie.findByIdAndDelete(req.params.id);
+  if(!move) return res.status(400).send('The move with given ID was not found');
+  
+  res.send(movie);
+}
