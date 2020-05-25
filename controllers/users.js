@@ -24,8 +24,12 @@ exports.postUser = async (req, res) => {
   const token = user.generateAuthToken();
   res.header('x-auth-token', token).send( _.pick(user, ['_id', 'name', 'email']) );
 }
-
+exports.deleteUser = async (req, res) => {
+  const user = await User.findByIdAndDelete(req.params.id);
+  if(!user) return res.status(404).send("User with given ID can't be found!");
+  return res.send(user);
+};
 exports.getUser = async (req, res) => {
   const user = await User.findById(req.user._id).select('-password');
   res.send(user);
-}
+};

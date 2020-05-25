@@ -13,6 +13,7 @@ const customerRoutes = require('./routes/customer.');
 const movieRoutes = require('./routes/movie');
 const rentalRoutes = require('./routes/rental');
 const userRoutes = require('./routes/user');
+const error = require('./services/error');
 
 if(!config.get('jwtPrivateKey')) {
   console.error('FATAL ERROR: jwtPrivateKey is not defined');
@@ -28,6 +29,8 @@ app.use('/api/customers', customerRoutes);
 app.use('/api/movies', movieRoutes);
 app.use('/api/rentals', rentalRoutes);
 app.use('/api/users', userRoutes);
+
+app.use(error)
 
 var PORT = process.env.PORT || 3000;
 mongoose.connect('mongodb://localhost/vidly', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
