@@ -2,7 +2,7 @@ const { Genre, validate } = require('../models/genre');
 
 exports.getGenres = async (req, res) => {
   // // use only for testing purpouses
-  throw new Error('Could not get genres');
+  // throw new Error('Could not get genres');
 
   const genres = await Genre.find().sort('name');
   res.send(genres);
