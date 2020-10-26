@@ -15,15 +15,12 @@ exports.postUser = async (req, res) => {
   let user = await User.findOne({ email: req.body.email });
   if(user) return res.status(400).send('User already registered.')
 
-  user = new User( _.pick(req.body, ['name', 'email', 'password'])); // lodash version of an object
+  // lodash version of an object
+  user = new User( _.pick(req.body, ['name', 'email', 'password']));
   const salt = await bcrypt.genSalt(10);
   user.password = await bcrypt.hash(user.password, salt);
   await user.save();
 
-<<<<<<< HEAD
-  res.send( _.pick(user, ['_id', 'name', 'email']) );
-}
-=======
   const token = user.generateAuthToken();
   res.header('x-auth-token', token).send( _.pick(user, ['_id', 'name', 'email']) );
 }
@@ -31,5 +28,4 @@ exports.postUser = async (req, res) => {
 exports.getUser = async (req, res) => {
   const user = await User.findById(req.user._id).select('-password');
   res.send(user);
-}
->>>>>>> 588b48f84595d3387146ba0597bf5f6f1a482505
+};
