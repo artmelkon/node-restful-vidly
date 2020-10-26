@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 
 // included route files
-const genreRoutes = require('./routes/genre');
+const genresRoutes = require('./routes/genres');
 const customersRoutes = require('./routes/customers')
 const moviesRoutes = require('./routes/movies');
 const rentalsRoutes = require('./routes/rentals');
@@ -21,7 +21,7 @@ if(!config.get('jwtPrivateKey')) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/api/genres', genreRoutes);
+app.use('/api/genres', genresRoutes);
 app.use('/api/customers', customersRoutes);
 app.use('/api/movies', moviesRoutes);
 app.use('/api/rentals', rentalsRoutes);
