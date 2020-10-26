@@ -1,18 +1,5 @@
-const config = require('config');
-const Joi = require('joi');
-Joi.objectId = require('joi-objectid')(Joi);
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-const Fawn = require('fawn');
 const express = require('express');
 const app = express();
-// include files
-const authRoutes = require('./routes/auth');
-const genreRoutes = require('./routes/genre');
-const customerRoutes = require('./routes/customer.');
-const movieRoutes = require('./routes/movie');
-const rentalRoutes = require('./routes/rental');
-const userRoutes = require('./routes/user');
 
 if(!config.get('jwtPrivateKey')) {
   console.error('FATAL ERROR: jwtPrivateKey is not defined');

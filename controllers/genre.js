@@ -1,11 +1,13 @@
 const { Genre, validate } = require('../models/genre');
 
-
 exports.getGenres = async (req, res) => {
+  // // use only for testing purpouses
+  // throw new Error('Could not get genres');
+
   const genres = await Genre.find().sort('name');
   res.send(genres);
 };
-exports.postGenre = async (req, res) => {
+exports.postGenre =  async (req, res) => {
   const { error } = validate(req.body);
   if(error) return res.status(400).send(error.details[0].message);
 
