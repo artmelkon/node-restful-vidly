@@ -3,7 +3,7 @@ const router = express.Router();
 
 const auth = require('../services/auth');
 const admin = require('../services/admin');
-const genreController = require('../controllers/genre');
+const genreController = require('../controllers/genres');
 
 router.get('/', genreController.getGenres);
 router.post('/', auth, genreController.postGenre);
