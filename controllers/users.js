@@ -30,6 +30,6 @@ exports.deleteUser = async (req, res) => {
   return res.send(user);
 };
 exports.getUser = async (req, res) => {
-  const user = await User.findById(req.user._id).select('-password');
+  const user = await User.findById(req.user._id).select('-password'); // to exclujde password: -password
   res.send(user);
 };
