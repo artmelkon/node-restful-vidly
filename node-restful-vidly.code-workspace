@@ -9,7 +9,7 @@
 		"files.autoSaveDelay": 1000,
 		"editor.tabSize":2,
 		"editor.wordWrap": "on",
-		"editor.fontSize": 10,
+		"editor.fontSize": 13,
 		"editor.tokenColorCustomizations": {
 			"comments":{
 				"foreground": "#969696",

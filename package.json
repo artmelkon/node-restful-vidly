@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --testEnvironment=node --verbose --detectOpenHandles --coverage --watchAll",
     "start-dev": "nodemon app.js",
     "start": "node app.js",
     "start-genre": "nodemon genres.js"
@@ -12,7 +12,9 @@
   "author": "Arthur Melkonyan",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "jest": "^26.6.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^6.0.1"
   },
   "dependencies": {
     "@hapi/joi": "^17.0.2",
@@ -29,6 +31,6 @@
     "mongoose": "^5.9.11",
     "mpath": "^0.5.1",
     "winston": "^2.4.4",
-    "winston-mongodb": "^5.0.5"
+    "winston-mongodb": "^3.0.0"
   }
 }

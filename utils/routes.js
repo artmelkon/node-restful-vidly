@@ -2,13 +2,13 @@
 const bodyParser = require('body-parser');
 
 // include files
-const authRoutes = require('../routes/auth');
-const genreRoutes = require('../routes/genre');
-const customerRoutes = require('../routes/customer.');
-const movieRoutes = require('../routes/movie');
-const rentalRoutes = require('../routes/rental');
-const userRoutes = require('../routes/user');
-const error = require('../services/error');
+const authRoutes      = require('../routes/auth');
+const customerRoutes  = require('../routes/customers');
+const genreRoutes     = require('../routes/genres');
+const movieRoutes     = require('../routes/movies');
+const rentalRoutes    = require('../routes/rentals');
+const userRoutes      = require('../routes/users');
+const error           = require('../services/error');
 
 module.exports = function(app) {
   app.use(bodyParser.json());
