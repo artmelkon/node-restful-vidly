@@ -33,7 +33,7 @@ exports.deleteGenre = async (req, res) => {
   res.send(genre)
 };
 exports.getGenre = async (req, res) => {
-  const genre = await Genre.findBiId(req.params.id);
+  const genre = await Genre.findById(req.params.id);
 
   if(!genre) return res.status(404).send('The genre of given Id could not be found!');
   

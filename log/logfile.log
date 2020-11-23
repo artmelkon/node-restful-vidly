@@ -1075,3 +1075,1334 @@
 2020-11-22T19:07:22.589Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
 2020-11-22T19:14:27.439Z - [32minfo[39m: Listening on Port 3000...
 2020-11-22T19:14:27.508Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T19:47:11.407Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T19:47:11.571Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T19:47:11.650Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T19:55:03.094Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T19:55:03.188Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T19:55:40.028Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T19:55:40.097Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T19:55:40.289Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T19:57:10.485Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T19:57:10.742Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:00:25.029Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:00:25.133Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:00:38.687Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:00:38.746Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:01:17.445Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:01:17.595Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:01:44.582Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:01:44.677Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:04:56.964Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:04:57.095Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:05:48.833Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:05:48.922Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:08:06.217Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:08:06.281Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:08:49.724Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:08:49.817Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:08:49.929Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:09:53.306Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:09:53.416Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:09:53.512Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:16:45.363Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:16:45.506Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:16:45.652Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:18:14.573Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:18:14.780Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:18:14.907Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:18:20.810Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:18:20.892Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:18:21.031Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:18:28.400Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:18:28.498Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:18:28.667Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:18:42.955Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:18:43.052Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:18:43.190Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:19:42.655Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:19:42.720Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:19:42.794Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:21:12.799Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:21:13.151Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:21:13.392Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:22:28.700Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:22:28.819Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:22:29.035Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:23:32.644Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:23:32.871Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:23:32.957Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:24:20.823Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:24:21.305Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:25:08.686Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:25:08.773Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:25:59.919Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:26:00.098Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:26:04.100Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:26:04.164Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:26:26.833Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:26:26.942Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:26:29.198Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:26:29.281Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:26:40.449Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:26:40.529Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:27:03.941Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:27:04.136Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:28:23.285Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:28:23.482Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:28:23.736Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:28:38.634Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:28:38.825Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:28:39.071Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:28:53.514Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:28:53.608Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:28:53.937Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:29:38.086Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:29:38.168Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:29:38.333Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:30:35.546Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:30:35.617Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:31:24.914Z - [31merror[39m: Genre.findBiId is not a function message=Genre.findBiId is not a function, stack=TypeError: Genre.findBiId is not a function
+    at exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:29)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T20:33:46.769Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:33:46.833Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:34:56.446Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:34:56.545Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:07.772Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:07.904Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:12.687Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:12.740Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:21.891Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:21.942Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:44.376Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:44.472Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:51.827Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:51.887Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:36:55.767Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:36:55.862Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:01.533Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:01.625Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:10.229Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:10.325Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:13.934Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:14.074Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:18.334Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:18.471Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:23.614Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:23.669Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:37:30.457Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:37:30.728Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:38:23.348Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:38:23.558Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:38:27.235Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:38:27.281Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:38:36.456Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:38:36.518Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:38:41.919Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:38:41.960Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:39:39.875Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:39:40.058Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:39:48.279Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:39:48.325Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:39:52.078Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:39:52.132Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:01.691Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:01.893Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:07.639Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:07.818Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:30.345Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:30.579Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:34.544Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:34.603Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:38.311Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:38.351Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:40:58.763Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:40:58.820Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:41:22.123Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:41:22.198Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:41:44.067Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:41:44.390Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:41:44.558Z - [31merror[39m: Cast to ObjectId failed for value "{ _id: 5fbacd08e02b1dbc71e2de36, name: 'genre1', __v: 0 }" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "{ _id: 5fbacd08e02b1dbc71e2de36, name: 'genre1', __v: 0 }" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "{ _id: 5fbacd08e02b1dbc71e2de36, name: 'genre1', __v: 0 }" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="{ _id: 5fbacd08e02b1dbc71e2de36, name: 'genre1', __v: 0 }", kind=undefined, value={ _id: 5fbacd08e02b1dbc71e2de36, name: 'genre1', __v: 0 }, path=_id, 
+2020-11-22T20:42:31.094Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:42:31.148Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:42:35.733Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:42:36.054Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:42:41.241Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:42:41.483Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:42:46.651Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:42:46.986Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:42:50.172Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:42:50.244Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:43:39.273Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:43:39.703Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:43:44.699Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:43:45.096Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:43:48.177Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:43:48.235Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:44:04.002Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:44:04.040Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:44:10.566Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:44:11.068Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:44:13.848Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:44:13.899Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:44:44.766Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:44:45.434Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T20:44:49.459Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T20:44:49.495Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:38:34.967Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:38:35.057Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:38:51.934Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:38:52.182Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:39:23.099Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:39:23.314Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:39:33.522Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:39:33.760Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:39:56.220Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:39:56.465Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:14.162Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:14.390Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:24.425Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:24.688Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:24.867Z - [31merror[39m: Cast to ObjectId failed for value "1" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "1" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="1", kind=undefined, value=1, path=_id, 
+2020-11-22T21:40:28.998Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:29.101Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:34.549Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:34.599Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:44.924Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:45.111Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:40:52.002Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:40:52.266Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:41:00.410Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:41:00.471Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:41:00.683Z - [31merror[39m: Cast to ObjectId failed for value "1" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "1" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="1", kind=undefined, value=1, path=_id, 
+2020-11-22T21:41:19.809Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:41:19.861Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:41:20.079Z - [31merror[39m: Cast to ObjectId failed for value "1" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "1" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="1", kind=undefined, value=1, path=_id, 
+2020-11-22T21:45:06.788Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:45:07.519Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:45:07.760Z - [31merror[39m: Cast to ObjectId failed for value "1" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "1" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="1", kind=undefined, value=1, path=_id, 
+2020-11-22T21:46:48.081Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:46:49.041Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:46:49.275Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:46:49.351Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:46:52.396Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:46:52.438Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:46:52.590Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:46:52.632Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:48:34.057Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:48:34.138Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:48:34.389Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:48:34.464Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:50:15.602Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:50:15.749Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:50:16.157Z - [31merror[39m: mongoos is not defined message=mongoos is not defined, stack=ReferenceError: mongoos is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:50:16.226Z - [31merror[39m: mongoos is not defined message=mongoos is not defined, stack=ReferenceError: mongoos is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:50:44.984Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:50:45.048Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:50:45.219Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:50:45.287Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:52:34.589Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:52:34.699Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:52:34.994Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:52:35.052Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:54:49.933Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:54:50.027Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:54:50.266Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:54:50.312Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:57:31.761Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:57:32.092Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:57:32.316Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:57:32.382Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:57:49.810Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:57:49.938Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:57:50.215Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:38:3)
+2020-11-22T21:57:50.275Z - [31merror[39m: Cast to ObjectId failed for value "1" at path "_id" for model "Genre" message=Cast to ObjectId failed for value "1" at path "_id" for model "Genre", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Genre"
+    at new CastError (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/error/cast.js:29:11)
+    at model.Query.exec (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4339:21)
+    at model.Query.Object.<anonymous>.Query.then (/home/artmelkon/webdev/node-restful-vidly/node_modules/mongoose/lib/query.js:4431:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5), name=CastError, messageFormat=undefined, stringValue="1", kind=undefined, value=1, path=_id, 
+2020-11-22T21:57:53.847Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:57:53.938Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:57:54.107Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:57:54.197Z - [31merror[39m: mongooss is not defined message=mongooss is not defined, stack=ReferenceError: mongooss is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:58:06.001Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:58:06.196Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:58:06.410Z - [31merror[39m: mongoos is not defined message=mongoos is not defined, stack=ReferenceError: mongoos is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:58:06.471Z - [31merror[39m: mongoos is not defined message=mongoos is not defined, stack=ReferenceError: mongoos is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:58:42.253Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:58:42.358Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:58:42.511Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:58:42.623Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:36:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:59:26.210Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T21:59:26.317Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T21:59:26.519Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T21:59:26.563Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T22:06:16.404Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:06:16.626Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:06:16.914Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T22:06:17.011Z - [31merror[39m: mongoose is not defined message=mongoose is not defined, stack=ReferenceError: mongoose is not defined
+    at Object.<anonymous>.exports.getGenre (/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js:37:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T22:21:49.761Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:21:49.940Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:22:07.633Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:22:07.794Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:22:17.442Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:22:17.488Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:22:22.410Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:22:22.465Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:37:00.017Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:37:00.181Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:37:07.390Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:37:07.519Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:37:14.381Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:37:14.487Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:50:59.150Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:50:59.575Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:50:59.849Z - [31merror[39m: nex is not defined message=nex is not defined, stack=ReferenceError: nex is not defined
+    at Object.<anonymous>.module.exports (/home/artmelkon/webdev/node-restful-vidly/services/validateObjectId.js:7:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T22:51:26.906Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:51:26.945Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:51:27.089Z - [31merror[39m: nex is not defined message=nex is not defined, stack=ReferenceError: nex is not defined
+    at Object.<anonymous>.module.exports (/home/artmelkon/webdev/node-restful-vidly/services/validateObjectId.js:7:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:281:22
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:47:12)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:317:13)
+    at /home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/artmelkon/webdev/node-restful-vidly/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/home/artmelkon/webdev/node-restful-vidly/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at newFn (/home/artmelkon/webdev/node-restful-vidly/node_modules/express-async-errors/index.js:16:20)
+2020-11-22T22:53:45.898Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:53:46.172Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-22T22:55:51.337Z - [32minfo[39m: Listening on Port 3000...
+2020-11-22T22:55:51.394Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-23T06:35:45.214Z - [32minfo[39m: Listening on Port 3000...
+2020-11-23T06:35:45.439Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..
+2020-11-23T06:35:53.812Z - [32minfo[39m: Listening on Port 3000...
+2020-11-23T06:35:53.865Z - [32minfo[39m: Connected to mongodb://localhost/vidly_test..

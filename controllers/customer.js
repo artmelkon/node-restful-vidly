@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Customer = require('../models/customer');
-const { validateCustomer } = require('../services/validate');
+const { validateCustomer } = require('../services/validate.js');
 
 exports.getCustomers = async (req, res) => {
   const customers = await Customer.find().sort('name');
