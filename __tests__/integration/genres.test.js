@@ -1,14 +1,18 @@
 const request = require('supertest');
+const mongoose = require('mongoose');
 const { User } = require('../../models/user');
 const { Genre } = require('../../models/genre');
 
 let server;
 
 describe('/api/genres', () => {
-  beforeEach(async () => { server = require('../../app'); await Genre.deleteMany(); });
-  afterEach( () => { 
+  beforeEach( () => { 
+    server = require('../../app'); 
+    // await Genre.deleteMany(); 
+  });
+  afterEach( async () => { 
     server.close();
-    // await Genre.deleteMany();
+    await Genre.deleteMany();
   }); 
 
   describe('GET /', () => {
@@ -45,6 +49,11 @@ describe('/api/genres', () => {
 
       expect(res.status).toBe(404);
     });
+
+    it('should return 404 if no genre with given id exiists', () => {
+      const id = mongoose.Types.ObjectId().toHexString();
+      const res = await request(server).get('/api/genre/' + id);
+    })
   });
 
   describe('POST /', () => {
