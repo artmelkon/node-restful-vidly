@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1606113354865" clover="3.2.0">
-  <project timestamp="1606113354865" name="All files">
-    <metrics statements="317" coveredstatements="197" conditionals="62" coveredconditionals="7" methods="44" coveredmethods="12" elements="423" coveredelements="216" complexity="0" loc="317" ncloc="317" packages="6" files="28" classes="28"/>
+<coverage generated="1606158320718" clover="3.2.0">
+  <project timestamp="1606158320718" name="All files">
+    <metrics statements="317" coveredstatements="208" conditionals="62" coveredconditionals="10" methods="44" coveredmethods="14" elements="423" coveredelements="232" complexity="0" loc="317" ncloc="317" packages="6" files="28" classes="28"/>
     <package name="node-restful-vidly">
       <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="app.js" path="/home/artmelkon/webdev/node-restful-vidly/app.js">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="node-restful-vidly.controllers">
-      <metrics statements="139" coveredstatements="46" conditionals="52" coveredconditionals="1" methods="23" coveredmethods="2"/>
+      <metrics statements="139" coveredstatements="51" conditionals="52" coveredconditionals="3" methods="23" coveredmethods="3"/>
       <file name="auth.js" path="/home/artmelkon/webdev/node-restful-vidly/controllers/auth.js">
         <metrics statements="15" coveredstatements="5" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -68,17 +68,17 @@
         <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="genres.js" path="/home/artmelkon/webdev/node-restful-vidly/controllers/genres.js">
-        <metrics statements="24" coveredstatements="11" conditionals="10" coveredconditionals="1" methods="5" coveredmethods="2"/>
+        <metrics statements="24" coveredstatements="16" conditionals="10" coveredconditionals="3" methods="5" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -180,7 +180,7 @@
       </file>
     </package>
     <package name="node-restful-vidly.models">
-      <metrics statements="41" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <metrics statements="41" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="customer.js" path="/home/artmelkon/webdev/node-restful-vidly/models/customer.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -189,13 +189,13 @@
         <line num="24" count="1" type="stmt"/>
       </file>
       <file name="genre.js" path="/home/artmelkon/webdev/node-restful-vidly/models/genre.js">
-        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
@@ -229,8 +229,8 @@
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
@@ -310,7 +310,7 @@
       </file>
     </package>
     <package name="node-restful-vidly.services">
-      <metrics statements="35" coveredstatements="18" conditionals="6" coveredconditionals="3" methods="8" coveredmethods="2"/>
+      <metrics statements="35" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="2"/>
       <file name="admin.js" path="/home/artmelkon/webdev/node-restful-vidly/services/admin.js">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -318,16 +318,16 @@
         <line num="3" count="0" type="stmt"/>
       </file>
       <file name="auth.js" path="/home/artmelkon/webdev/node-restful-vidly/services/auth.js">
-        <metrics statements="10" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
       <file name="error.js" path="/home/artmelkon/webdev/node-restful-vidly/services/error.js">
